@@ -1,19 +1,19 @@
 #include "main.h"
+
 /**
- * main - entry point for function
- *
- * Return: always 0 (success)
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
-	_putchar("_");
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+char c[10] = "_putchar";
+int i = 0;
+while (i < 9)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
